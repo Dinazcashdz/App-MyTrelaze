@@ -1,0 +1,12 @@
+{
+  "hosting": {
+    "public": "public",
+    "ignore": ["firebase.json", "**/.*"],
+    "headers": [
+      {
+        "source": "/app-ads.txt",
+        "headers": [{ "key": "Content-Type", "value": "text/plain" }]
+      }
+    ]
+  }
+}
