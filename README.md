@@ -8,20 +8,10 @@
 
 ## Aperçu
 
-<!-- Ajoute tes screenshots dans un dossier screenshots/ puis décommente les lignes ci-dessous -->
-<!-- Exemple avec 3 captures côte à côte : -->
-
-<!--
 <p align="center">
-  <img src="screenshots/home.png" width="28%" />
-  <img src="screenshots/transport.png" width="28%" />
-  <img src="screenshots/meteo.png" width="28%" />
-</p>
--->
-
-<!-- Screenshot déjà présent dans le repo : -->
-<p align="center">
-  <img src="flutter_01.png" width="300" />
+  <img src="screenshots/screen1.png" width="28%" />
+  <img src="screenshots/screen2.png" width="28%" />
+  <img src="screenshots/screen3.png" width="28%" />
 </p>
 
 ---
