@@ -1,17 +1,78 @@
-# my_trelaze
+# My Trélazé 📱
 
-app mobile
+**L'application citoyenne indépendante de Trélazé (49800)**
 
-## Getting Started
+> Application non officielle — non affiliée à la Mairie de Trélazé.
 
-This project is a starting point for a Flutter application.
+---
 
-A few resources to get you started if this is your first Flutter project:
+## Aperçu
 
-- [Learn Flutter](https://docs.flutter.dev/get-started/learn-flutter)
-- [Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Flutter learning resources](https://docs.flutter.dev/reference/learning-resources)
+<!-- Ajoute tes screenshots dans un dossier screenshots/ puis décommente les lignes ci-dessous -->
+<!-- Exemple avec 3 captures côte à côte : -->
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+<!--
+<p align="center">
+  <img src="screenshots/home.png" width="28%" />
+  <img src="screenshots/transport.png" width="28%" />
+  <img src="screenshots/meteo.png" width="28%" />
+</p>
+-->
+
+<!-- Screenshot déjà présent dans le repo : -->
+<p align="center">
+  <img src="flutter_01.png" width="300" />
+</p>
+
+---
+
+## Fonctionnalités
+
+- 🏠 **Accueil** — Météo en direct, dernières actus, accès rapide aux services
+- 🚌 **Transport** — Horaires Irigo (bus) et SNCF en temps réel
+- 📰 **Actualités** — France 3 Anjou, Angers.fr
+- 🗺️ **Plan de la ville** — Carte interactive
+- 🗑️ **Déchets** — Calendrier de collecte
+- 🍽️ **Restaurants** — Adresses et horaires
+- 📅 **Agenda** — Événements de la ville
+- 🔔 **Notifications push** — Alertes citoyennes
+- 🚨 **Signalement citoyen** — Voirie, éclairage, graffiti…
+
+---
+
+## Ajouter des screenshots
+
+1. Lance l'app sur ton émulateur ou téléphone
+2. Prends des captures (sur Android : `flutter screenshot`)
+3. Crée un dossier `screenshots/` à la racine du repo
+4. Dépose tes images dedans et fais un `git push`
+5. Dans ce README, décommente le bloc `<p align="center">` ci-dessus
+
+---
+
+## Stack technique
+
+- **Flutter** 3.x (Dart)
+- **Firebase** (Firestore, Messaging, Storage)
+- **Google Maps** + flutter_map
+- **Google Mobile Ads** (AdMob)
+- **OpenWeather API**
+
+---
+
+## Installation
+
+```bash
+git clone https://github.com/Dinazcashdz/App-MyTrelaze.git
+cd App-MyTrelaze
+cp lib/config/secrets.example.dart lib/config/secrets.dart
+# Remplir les clés API dans secrets.dart
+flutter pub get
+flutter run
+```
+
+---
+
+## Licence
+
+Application citoyenne indépendante — © 2026
