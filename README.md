@@ -1,56 +1,62 @@
+<div align="center">
+
 # My Trélazé 📱
 
-**L'application citoyenne indépendante de Trélazé (49800)**
+### L'application citoyenne indépendante de Trélazé
 
-> Application non officielle — non affiliée à la Mairie de Trélazé.
+[![Flutter](https://img.shields.io/badge/Flutter-3.x-02569B?logo=flutter&logoColor=white)](https://flutter.dev)
+[![Android](https://img.shields.io/badge/Android-API%2021+-3DDC84?logo=android&logoColor=white)](https://android.com)
+[![Firebase](https://img.shields.io/badge/Firebase-enabled-FFCA28?logo=firebase&logoColor=black)](https://firebase.google.com)
+[![License](https://img.shields.io/badge/Licence-Indépendante-406868)](#)
+
+> ⚠️ Application citoyenne non officielle — non affiliée à la Mairie de Trélazé
 
 ---
 
-## Aperçu
+### 📸 Aperçu
 
 <p align="center">
   <img src="screenshots/screen1.png" width="28%" />
+  &nbsp;&nbsp;
   <img src="screenshots/screen2.png" width="28%" />
+  &nbsp;&nbsp;
   <img src="screenshots/screen3.png" width="28%" />
 </p>
 
----
-
-## Fonctionnalités
-
-- 🏠 **Accueil** — Météo en direct, dernières actus, accès rapide aux services
-- 🚌 **Transport** — Horaires Irigo (bus) et SNCF en temps réel
-- 📰 **Actualités** — France 3 Anjou, Angers.fr
-- 🗺️ **Plan de la ville** — Carte interactive
-- 🗑️ **Déchets** — Calendrier de collecte
-- 🍽️ **Restaurants** — Adresses et horaires
-- 📅 **Agenda** — Événements de la ville
-- 🔔 **Notifications push** — Alertes citoyennes
-- 🚨 **Signalement citoyen** — Voirie, éclairage, graffiti…
+</div>
 
 ---
 
-## Ajouter des screenshots
+## ✨ Fonctionnalités
 
-1. Lance l'app sur ton émulateur ou téléphone
-2. Prends des captures (sur Android : `flutter screenshot`)
-3. Crée un dossier `screenshots/` à la racine du repo
-4. Dépose tes images dedans et fais un `git push`
-5. Dans ce README, décommente le bloc `<p align="center">` ci-dessus
-
----
-
-## Stack technique
-
-- **Flutter** 3.x (Dart)
-- **Firebase** (Firestore, Messaging, Storage)
-- **Google Maps** + flutter_map
-- **Google Mobile Ads** (AdMob)
-- **OpenWeather API**
+| Écran | Description |
+|---|---|
+| 🏠 **Accueil** | Météo en direct, dernières actus, accès rapide |
+| 🚌 **Transport** | Horaires Irigo (bus) et SNCF en temps réel |
+| 📰 **Actualités** | France 3 Anjou, Angers.fr |
+| 🗺️ **Plan** | Carte interactive de la ville |
+| 🗑️ **Déchets** | Calendrier de collecte |
+| 🍽️ **Restaurants** | Adresses et horaires |
+| 📅 **Agenda** | Événements de la ville |
+| 🔔 **Notifications** | Alertes citoyennes push |
+| 🚨 **Signalement** | Voirie, éclairage, graffiti… |
 
 ---
 
-## Installation
+## 🛠️ Stack technique
+
+<div align="center">
+
+![Flutter](https://img.shields.io/badge/-Flutter-02569B?logo=flutter&logoColor=white&style=for-the-badge)
+![Dart](https://img.shields.io/badge/-Dart-0175C2?logo=dart&logoColor=white&style=for-the-badge)
+![Firebase](https://img.shields.io/badge/-Firebase-FFCA28?logo=firebase&logoColor=black&style=for-the-badge)
+![Google Maps](https://img.shields.io/badge/-Google%20Maps-4285F4?logo=googlemaps&logoColor=white&style=for-the-badge)
+
+</div>
+
+---
+
+## 🚀 Installation
 
 ```bash
 git clone https://github.com/Dinazcashdz/App-MyTrelaze.git
@@ -63,6 +69,15 @@ flutter run
 
 ---
 
-## Licence
+## 📍 À propos
 
-Application citoyenne indépendante — © 2026
+Application développée pour les habitants de **Trélazé (49800), Maine-et-Loire**.  
+Conçue avec Flutter pour Android & iOS.
+
+---
+
+<div align="center">
+
+Made with ❤️ pour Trélazé
+
+</div>
